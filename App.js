@@ -6,7 +6,6 @@ import { createStore } from 'redux'; //After exported reducer, create the Store
 import { Provider } from 'react-redux'; // For copy to our component
 
 let store = createStore(reducer);
-console.log(store.getState());
 
 export default class App extends Component {
   render() {

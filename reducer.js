@@ -27,7 +27,7 @@ function addSecond(){
 }
 
 //Reducer
-const TIMER_DURATION = 1500;
+const TIMER_DURATION = 1500; 
 
 const initialState = {
     isPlaying: false,
@@ -78,11 +78,13 @@ function applyAddSecond(state){
 }
 
 //Export Action Creators
-const ActionCreators = {
+const actionCreators = {
     startTimer,
     restartTimer,
     addSecond
 };
+
+export {actionCreators};
 
 
 // Export Reducer
