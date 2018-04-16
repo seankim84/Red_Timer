@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Timer from './components/Timer/presenter';
+import Timer from './components/Timer';
 import reducer from './reducer';
 import { createStore } from 'redux'; //After exported reducer, create the Store
 import { Provider } from 'react-redux'; // For copy to our component
